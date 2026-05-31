@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Новости – ГААО</title>
+  <meta name="description" content="Официальный информационный сайт Государственного архива Астраханской области">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="topLine">
+    <div class="container topLineInner">
+      <span>Государственное казённое учреждение Астраханской области</span>
+      <div class="topLineLinks">
+        <a href="contacts.html">+7 (8512) 66-62-40</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="pageHeader">
+    <div class="container headerMain">
+      <a class="logoBlock" href="index.html" aria-label="На главную страницу">
+        <img src="assets/img/logo.png" alt="Логотип ГААО" class="logoImg" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+        <span class="logoEmpty" style="display:none;">ГААО</span>
+        <span class="logoText">
+          <strong>Государственный архив<br>Астраханской области</strong>
+          <small>официальный информационный ресурс</small>
+        </span>
+      </a>
+
+      <button class="menuButton" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mainMenu" aria-label="Основное меню">
+      <div class="container menuList">
+        <a class="" href="index.html">Главная</a><a class="" href="about.html">Об архиве</a><a class="" href="municipal.html">Муниципальные архивы</a><a class="active" href="news.html">Новости</a><a class="" href="contacts.html">Контакты</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="pageBanner">
+      <div class="container">
+        <p class="miniTitle">Актуальная информация</p>
+        <h1>Новости</h1>
+        <p>Раздел предназначен для размещения объявлений, публикаций, сообщений о мероприятиях и материалов о деятельности архива.</p>
+      </div>
+    </section>
+
+    <section class="sectionBlock">
+      <div class="container">
+        <h2 class="sectionTitle">Новостная лента</h2>
+        <p class="sectionText">Новости представлены карточками с изображением, заголовком, датой и категорией. Сверху расположен поиск по материалам, снизу – переключение страниц.</p>
+
+        <div class="newsTop" aria-label="Поиск новостей">
+          <label class="searchBox">
+            <span>Поиск по новостям</span>
+            <input type="search" id="newsSearch" placeholder="Введите слово для поиска" autocomplete="off">
+          </label>
+          <div class="newsCount" id="newsCount">Найдено материалов: 12</div>
+        </div>
+
+        <div class="newsLoad" id="newsLoading" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="newsList" id="newsList">
+          <a class="newsCard" href="#" data-title="Что такое терроризм и чем он опасен Антитеррор" data-category="Антитеррор">
+            <div class="newsCardImg">
+              <img src="assets/img/news/news-01.jpg" alt="Что такое терроризм и чем он опасен?">
+            </div>
+            <div class="newsCardText"><h3>Терроризм – угроза обществу!</h3><div class="newsMeta">20 мая, 10:30 | Антитеррор</div><p>Информационный материал для посетителей сайта и сотрудников учреждения.</p></div>
+          </a>
+          <a class="newsCard" href="#" data-title="Единство в документах эпохи выпуск 4 единое здоровье сфера жизни архивы" data-category="Архивы">
+            <div class="newsCardImg">
+              <img src="assets/img/news/news-02.jpg" alt="Единство в документах эпохи">
+            </div>
+            <div class="newsCardText"><h3>«Единство в документах эпохи». Выпуск 4</h3><div class="newsMeta">30 апреля, 13:00 | Архивы</div><p>Публикация архивных материалов, связанных с историей региона и документальным наследием.</p></div>
+          </a>
+          <a class="newsCard" href="#" data-title="Архивы обсудили комплектование фондов в формате онлайн" data-category="Архивы">
+            <div class="newsCardImg">
+              <img src="assets/img/news/news-03.jpg" alt="Круглый стол архивистов">
+            </div>
+            <div class="newsCardText"><h3>Архивы обсудили комплектование фондов в формате онлайн</h3><div class="newsMeta">30 апреля, 10:30 | Архивы</div><p>Новость о профессиональном взаимодействии архивных учреждений и обмене опытом.</p></div>
+          </a>
+          <a class="newsCard" href="#" data-title="Память о подвиге Чернобыльской АЭС архивы" data-category="Архивы">
+            <div class="newsCardImg">
+              <img src="assets/img/news/news-04.jpg" alt="Памятная дата">
+            </div>
+            <div class="newsCardText"><h3>Память о подвиге: к памятной дате аварии на Чернобыльской АЭС</h3><div class="newsMeta">27 апреля, 11:00 | Архивы</div><p>Материал, посвящённый сохранению исторической памяти и документальным источникам.</p></div>
+          </a>
+          <a class="newsCard" href="#" data-title="Студенты историки представили итоговые проекты образование" data-category="Образование">
+            <div class="newsCardImg">
+              <img src="assets/img/news/news-05.jpg" alt="Образование">
+            </div>
+            <div class="newsCardText"><h3>Студенты-историки представили итоговые проекты</h3><div class="newsMeta">27 апреля, 13:30 | Образование</div><p>Информация о мероприятии, проведённом с участием архива и образовательных организаций.</p></div>
+          </a>
+          <a class="newsCard" href="#" data-title="Госархив Астраханской области принял участие в конференции культура архивы" data-category="Культура, Архивы">
+            <div class="newsCardImg">
+              <img src="assets/img/news/news-06.jpg" alt="Музей Победы">
+            </div>
+            <div class="newsCardText"><h3>Госархив Астраханской области принял участие в конференции</h3><div class="newsMeta">23 апреля, 13:00 | Культура, Архивы</div><p>Краткая заметка о межрегиональном сотрудничестве и участии в профильном мероприятии.</p></div>
+          </a>
+          <a class="newsCard" href="#" data-title="Завести в Астрахани аптекарский огород архивная выставка" data-category="Архивы">
+            <div class="newsCardImg">
+              <img src="assets/img/news/news-07.jpg" alt="Архивная выставка">
+            </div>
+            <div class="newsCardText"><h3>«Завести в Астрахани аптекарский огород»: архивная выставка</h3><div class="newsMeta">18 апреля, 13:00 | Архивы</div><p>Материал о выставке, подготовленной на основе архивных документов.</p></div>
+          </a>
+          <a class="newsCard" href="#" data-title="Интегрированный урок пишу тебе из прошлого образование архивы" data-category="Образование, Архивы">
+            <div class="newsCardImg">
+              <img src="assets/img/news/news-08.jpg" alt="Урок в школе">
+            </div>
+            <div class="newsCardText"><h3>Интегрированный урок «Пишу тебе из прошлого»</h3><div class="newsMeta">17 апреля, 13:00 | Образование, Архивы</div><p>Сотрудники архива провели тематическое занятие для школьников.</p></div>
+          </a>
+          <a class="newsCard" href="#" data-title="Сотрудники ГААО провели урок мужества образование архивы" data-category="Образование, Архивы">
+            <div class="newsCardImg">
+              <img src="assets/img/news/news-09.jpg" alt="Урок мужества">
+            </div>
+            <div class="newsCardText"><h3>Сотрудники ГААО провели урок мужества</h3><div class="newsMeta">16 апреля, 13:00 | Образование, Архивы</div><p>Мероприятие посвящено Дню памяти жертв геноцида советского народа.</p></div>
+          </a>
+          <a class="newsCard" href="#" data-title="Молодежь проведите время с пользой культура бесплатно" data-category="Молодёжная политика">
+            <div class="newsCardImg">
+              <img src="assets/img/news/news-10.jpg" alt="Культура">
+            </div>
+            <div class="newsCardText"><h3>Молодежь, проведите время с пользой – культурно и бесплатно!</h3><div class="newsMeta">15 апреля, 10:00 | Молодёжная политика</div><p>Объявление о возможностях посещения культурных мероприятий.</p></div>
+          </a>
+          <a class="newsCard" href="#" data-title="Сотрудники ГААО приняли участие в круглом столе сохранение исторической памяти" data-category="Архивы">
+            <div class="newsCardImg">
+              <img src="assets/img/news/news-11.jpg" alt="Круглый стол">
+            </div>
+            <div class="newsCardText"><h3>Сотрудники ГААО приняли участие в круглом столе</h3><div class="newsMeta">14 апреля, 13:00 | Архивы</div><p>Обсуждение вопросов сохранения исторической памяти.</p></div>
+          </a>
+          <a class="newsCard" href="#" data-title="Новый выпуск рубрики Архив уже вышел" data-category="Архивы">
+            <div class="newsCardImg">
+              <img src="assets/img/news/news-12.jpg" alt="Рубрика «Архив»">
+            </div>
+            <div class="newsCardText"><h3>Новый выпуск рубрики «Архив» уже вышел</h3><div class="newsMeta">13 апреля, 13:00 | Архивы</div><p>Публикация нового видеоматериала о работе с архивными источниками.</p></div>
+          </a>
+        </div>
+
+        <div class="pages" id="newsPagination" aria-label="Переключение страниц новостей"></div>
+        <p class="emptyNews" id="newsEmpty">По вашему запросу новости не найдены.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footerGrid">
+      <div>
+        <h3>ГКУ АО «ГААО»</h3>
+        <p>Государственный архив Астраханской области. Сохранение, учёт и использование документов Архивного фонда.</p>
+      </div>
+      <div>
+        <h4>Разделы</h4>
+        <a href="about.html">Об архиве</a>
+        <a href="municipal.html">Муниципальные архивы</a>
+        <a href="news.html">Новости</a>
+        <a href="contacts.html">Контакты</a>
+      </div>
+      <div>
+        <h4>Контактная информация</h4>
+        <p>414040, г. Астрахань,<br>ул. Академика Королева, д. 39-А<br>+7 (8512) 66-62-40<br>astrahanarhive@astrobl.ru</p>
+      </div>
+    </div>
+    <div class="container footerBottom">
+      <span>2026 © Государственный архив Астраханской области</span>
+      <a href="#" data-login>Служебный доступ</a>
+    </div>
+  </footer>
+
+  <div class="modal" id="loginModal" aria-hidden="true">
+    <div class="loginBox" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+      <button class="closeButton" type="button" data-close aria-label="Закрыть">×</button>
+      <h2 id="loginTitle">Служебный доступ</h2>
+      <p>Раздел предназначен только для сотрудников учреждения и требует авторизации.</p>
+      <form class="loginForm">
+        <label>Логин сотрудника<input type="text" placeholder="Введите логин"></label>
+        <label>Пароль<input type="password" placeholder="Введите пароль"></label>
+        <button type="button" class="button buttonBlue">Войти</button>
+      </form>
+      <p class="loginNote">Доступ предоставляется только сотрудникам учреждения.</p>
+    </div>
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

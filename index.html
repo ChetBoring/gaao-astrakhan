@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная – ГААО</title>
+  <meta name="description" content="Официальный информационный сайт Государственного архива Астраханской области">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="topLine">
+    <div class="container topLineInner">
+      <span>Государственное казённое учреждение Астраханской области</span>
+      <div class="topLineLinks">
+        <a href="contacts.html">+7 (8512) 66-62-40</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="pageHeader">
+    <div class="container headerMain">
+      <a class="logoBlock" href="index.html" aria-label="На главную страницу">
+        <img src="assets/img/logo.png" alt="Логотип ГААО" class="logoImg" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+        <span class="logoEmpty" style="display:none;">ГААО</span>
+        <span class="logoText">
+          <strong>Государственный архив<br>Астраханской области</strong>
+          <small>официальный информационный ресурс</small>
+        </span>
+      </a>
+
+      <button class="menuButton" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mainMenu" aria-label="Основное меню">
+      <div class="container menuList">
+        <a class="active" href="index.html">Главная</a><a class="" href="about.html">Об архиве</a><a class="" href="municipal.html">Муниципальные архивы</a><a class="" href="news.html">Новости</a><a class="" href="contacts.html">Контакты</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="mainBanner">
+      <img src="assets/img/banner.jpg" alt="Государственный архив Астраханской области">
+    </section>
+
+    <section class="sectionBlock quickInfo">
+      <div class="container quickInfoGrid">
+        <div class="infoText">
+          <p class="miniTitle blueTitle">Государственный архив Астраханской области</p>
+          <h1>Сохранение документальной истории региона</h1>
+          <p>Сайт содержит основную информацию об архиве, муниципальных архивах, новостях и контактных данных учреждения.</p>
+          <div class="bannerButtons">
+            <a class="button buttonBlue" href="https://www.gosuslugi.ru/" target="_blank" rel="noopener">Подать электронное заявление</a>
+            <a class="button buttonWhite borderedButton" href="municipal.html">Муниципальные архивы</a>
+            <a class="button buttonWhite borderedButton" href="contacts.html">Контакты</a>
+          </div>
+        </div>
+        <div class="workTime">
+          <h2>Режим работы</h2>
+          <p><strong>Пн–Чт:</strong> 08:00–17:00<br><strong>Пт:</strong> 08:00–15:45<br><strong>Обед:</strong> 12:00–12:45</p>
+          <p class="muted">Последняя пятница месяца – санитарный день.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionBlock">
+      <div class="container">
+        <h2 class="sectionTitle">Основные разделы сайта</h2>
+        <p class="sectionText">На сайте собраны основные разделы для быстрого доступа к информации об архиве.</p>
+        <div class="cards cardsFour">
+          <a class="card linkCard" href="about.html"><span>01</span><h3>Об архиве</h3><p>Краткие сведения об учреждении и направлениях его работы.</p></a>
+          <a class="card linkCard" href="municipal.html"><span>02</span><h3>Муниципальные архивы</h3><p>Справочная информация об архивных учреждениях муниципальных образований.</p></a>
+          <a class="card linkCard" href="news.html"><span>03</span><h3>Новости</h3><p>Актуальные события, объявления, публикации и материалы архива.</p></a>
+          <a class="card linkCard" href="contacts.html"><span>04</span><h3>Контакты</h3><p>Адрес, телефон, почта, реквизиты и карта проезда.</p></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionBlock lightSection">
+      <div class="container twoColumns">
+        <div>
+          <h2 class="sectionTitle">Для посетителей</h2>
+          <p>Пользователь может быстро узнать порядок обращения в архив, найти контактные данные, ознакомиться с режимом работы и перейти к новостям.</p>
+        </div>
+        <ul class="checkList">
+          <li>справочная информация для посетителей;</li>
+          <li>сведения об архивных учреждениях региона;</li>
+          <li>новости, объявления и публикации;</li>
+          <li>контакты и карта расположения здания.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sectionBlock">
+      <div class="container">
+        <h2 class="sectionTitle">Последние новости</h2>
+        <div class="newsSlider" id="newsSlider">
+          <button class="sliderBtn sliderPrev" type="button" aria-label="Предыдущая новость">‹</button>
+          <div class="sliderWindow">
+            <a class="sliderSlide active" href="#">
+              <img src="assets/img/news/news-01.jpg" alt="Терроризм – угроза обществу!">
+              <span class="sliderShade"></span>
+              <span class="sliderInfo">
+                <strong>Терроризм – угроза обществу!</strong>
+                <small>20 мая, 10:30 | Антитеррор</small>
+              </span>
+            </a>
+            <a class="sliderSlide" href="#">
+              <img src="assets/img/news/news-02.jpg" alt="Единство в документах эпохи">
+              <span class="sliderShade"></span>
+              <span class="sliderInfo">
+                <strong>«Единство в документах эпохи». Выпуск 4</strong>
+                <small>30 апреля, 13:00 | Архивы</small>
+              </span>
+            </a>
+            <a class="sliderSlide" href="#">
+              <img src="assets/img/news/news-03.jpg" alt="Архивы обсудили комплектование фондов">
+              <span class="sliderShade"></span>
+              <span class="sliderInfo">
+                <strong>Архивы обсудили комплектование фондов в формате онлайн</strong>
+                <small>30 апреля, 10:30 | Архивы</small>
+              </span>
+            </a>
+          </div>
+          <button class="sliderBtn sliderNext" type="button" aria-label="Следующая новость">›</button>
+          <div class="sliderDots" aria-label="Переключение новостей">
+            <button class="active" type="button" aria-label="Новость 1"></button>
+            <button type="button" aria-label="Новость 2"></button>
+            <button type="button" aria-label="Новость 3"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+</main>
+  <footer class="footer">
+    <div class="container footerGrid">
+      <div>
+        <h3>ГКУ АО «ГААО»</h3>
+        <p>Государственный архив Астраханской области. Сохранение, учёт и использование документов Архивного фонда.</p>
+      </div>
+      <div>
+        <h4>Разделы</h4>
+        <a href="about.html">Об архиве</a>
+        <a href="municipal.html">Муниципальные архивы</a>
+        <a href="news.html">Новости</a>
+        <a href="contacts.html">Контакты</a>
+      </div>
+      <div>
+        <h4>Контактная информация</h4>
+        <p>414040, г. Астрахань,<br>ул. Академика Королева, д. 39-А<br>+7 (8512) 66-62-40<br>astrahanarhive@astrobl.ru</p>
+      </div>
+    </div>
+    <div class="container footerBottom">
+      <span>2026 © Государственный архив Астраханской области</span>
+      <a href="#" data-login>Служебный доступ</a>
+    </div>
+  </footer>
+
+  <div class="modal" id="loginModal" aria-hidden="true">
+    <div class="loginBox" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+      <button class="closeButton" type="button" data-close aria-label="Закрыть">×</button>
+      <h2 id="loginTitle">Служебный доступ</h2>
+      <p>Раздел предназначен только для сотрудников учреждения и требует авторизации.</p>
+      <form class="loginForm">
+        <label>Логин сотрудника<input type="text" placeholder="Введите логин"></label>
+        <label>Пароль<input type="password" placeholder="Введите пароль"></label>
+        <button type="button" class="button buttonBlue">Войти</button>
+      </form>
+      <p class="loginNote">Доступ предоставляется только сотрудникам учреждения.</p>
+    </div>
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
